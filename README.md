@@ -3,3 +3,14 @@
 # singularity-recipe-zeopp
 
 Singularity recipes for [zeo++](http://www.zeoplusplus.org/).
+
+## Usage
+```
+singularity pull shub://ltalirz/singularity-recipe-zeopp:ansible
+
+# run zeo++
+singularity exec ltalirz-singularity-recipe-zeopp-master-ansible.simg /usr/local/bin/network
+
+# run voro++
+singularity exec ltalirz-singularity-recipe-zeopp-master-ansible.simg /usr/local/bin/voro++
+```
