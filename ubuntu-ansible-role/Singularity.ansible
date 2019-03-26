@@ -10,7 +10,7 @@ From: marvelnccr/ubuntu-docker-base:2.2
     ansible-playbook /tmp/playbook.yml
     apt-get -y clean
     cp --dereference /tmp/zeoplusplus/network /usr/local/bin/
-    cp --dereference /tmp/zeoplusplus/nvoro++/src/voro++ /usr/local/bin/
+    cp --dereference /tmp/zeoplusplus/voro++/src/voro++ /usr/local/bin/
 
 %environment
     export LC_ALL=en_US.UTF-8
