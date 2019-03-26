@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  vars:
+    zeopp_code_folder: "/tmp/"
+  roles:
+  - marvel-nccr.zeopp
